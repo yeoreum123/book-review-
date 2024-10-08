@@ -1,0 +1,188 @@
+body{
+    background-color: rgb(113, 163, 255);
+}
+
+.container{
+	 background-image: url("images/bg-1.jpeg");
+    background-color: rgb(255, 255, 255);
+
+}
+
+
+.follow-button {
+            background-color: #F8BBD0; /* สีชมพูพาสเทล */
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+            position: absolute;
+            top: 170px;
+            right: 450px;
+            transition: transform 0.3s ease, background-color 0.3s ease;
+        }
+
+        .follow-button.following {
+            background-color: #D3D3D3; /* สีเทาเมื่อกดติดตาม */
+        }
+
+        /* ปุ่มขยับเมื่อคลิก */
+        .follow-button:active {
+            transform: scale(0.95); /* ย่อขนาดปุ่ม */
+        }
+
+        /* ปุ่มขยับเมื่อโฮเวอร์ */
+        .follow-button:hover {
+            background-color: #F48FB1; /* สีชมพูพาสเทลเข้มขึ้นเมื่อโฮเวอร์ */
+            transform: translateY(-5px); /* ขยับขึ้นเล็กน้อย */
+        }
+
+
+
+h2 {
+            color: #20B2AA; /* สีน้ำเงินพาสเทล */
+        }
+
+
+
+
+
+
+h6 {
+            color: #FF82AB; /* สีน้ำเงินพาสเทล */
+        }
+
+
+
+
+
+
+p {
+            color: #019cdf; /* สีน้ำเงินพาสเทล */
+        }
+
+
+
+
+
+
+
+h3 {
+            color: #C980DB; /* สีน้ำเงินพาสเทล */
+        }
+
+
+
+
+
+
+p1 {
+            color: #7F83ED; /* สีน้ำเงินพาสเทล */
+        }
+
+
+
+body {
+            
+
+        .review-container {
+            max-width: 500px;
+            margin: auto;
+        }
+
+        h2 {
+            text-align: center;
+        }
+
+        .stars {
+            display: flex;
+            justify-content: center;
+            margin-bottom: 20px;
+        }
+
+        .stars input[type="radio"] {
+            display: none;
+        }
+
+        .stars label {
+            font-size: 30px;
+            color: #ccc;
+            cursor: pointer;
+            transition: color 0.2s;
+        }
+
+        .stars input[type="radio"]:checked ~ label {
+            color: pink;
+        }
+
+        .stars label:hover,
+        .stars label:hover ~ label {
+            color: pink;
+        }
+
+        .review-textarea {
+            width: 100%;
+            height: 100px;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            margin-bottom: 10px;
+            resize: vertical;
+        }
+
+        .submit-btn {
+            width: 100%;
+            padding: 10px;
+            background-color: #FF99CC;
+            color: white;
+            border: none;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+
+        .submit-btn:hover {
+            background-color: #FF99CC;
+        }
+
+        .reviews-list {
+            margin-top: 30px;
+        }
+
+        .review-item {
+            border-bottom: 1px solid #ccc;
+            padding: 10px 0;
+        }
+
+        .review-item p {
+            margin: 0;
+        }
+
+        .review-item .rating {
+            color: pink;
+        }
+    }
+
+
+
+
+
+
+
+	.image-container {
+            position: relative;
+            display: inline-block;
+            cursor: pointer;
+        }
+
+        .image {
+            width: 300px; /* กำหนดขนาดภาพ */
+            height: auto;
+            transition: transform 0.3s ease, opacity 0.3s ease;
+            opacity: 0.8; /* ให้มีความโปร่งแสงเล็กน้อย */
+        }
+
+        .image:hover {
+            transform: scale(1.1); /* ขยายภาพเมื่อชี้เมาส์ */
+            opacity: 1; /* ทำให้ทึบเมื่อชี้เมาส์ */
+        }

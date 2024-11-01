@@ -41,7 +41,7 @@ body{
 
 
 h2 {
-            color: #20B2AA; 
+            color: #5076e7; 
         }
 
 
@@ -59,7 +59,7 @@ h6 {
 
 
 p {
-            color: #019cdf; 
+            color: #2161da; 
         }
 
 
@@ -69,7 +69,7 @@ p {
 
 
 h1 {
-            color: #C980DB; 
+            color: #088d7b; 
         }
 
 
@@ -78,7 +78,7 @@ h1 {
 
 
 p1 {
-            color: #7F83ED; 
+            color: #784fc5; 
         }
 
 
@@ -185,4 +185,17 @@ body {
         .image:hover {
             transform: scale(1.1); /* ขยายภาพเมื่อชี้เมาส์ */
             opacity: 1; /* ทำให้ทึบเมื่อชี้เมาส์ */
+        }
+
+
+
+
+        footer {
+            background-color: #fff8ce; /* สีชมพูพาสเทล */
+            color: #333; /* สีข้อความ */
+            text-align: center;
+            padding: 20px 0;
+            position: relative;
+            bottom: 0;
+            width: 100%;
         }

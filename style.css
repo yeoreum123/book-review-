@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Thai:wght@100..900&display=swap');
 body{
     background-color: rgb(113, 163, 255);
 }
@@ -7,41 +8,16 @@ body{
     background-color: rgb(255, 255, 255);
 
 }
-
-
-.follow-button {
-            background-color: #F8BBD0; /* สีชมพูพาสเทล */
-            color: white;
-            padding: 10px 20px;
-            border: none;
-            border-radius: 5px;
-            cursor: pointer;
-            font-size: 16px;
-            position: absolute;
-            top: 170px;
-            right: 450px;
-            transition: transform 0.3s ease, background-color 0.3s ease;
-        }
-
-        .follow-button.following {
-            background-color: #D3D3D3; /* สีเทาเมื่อกดติดตาม */
-        }
-
-        /* ปุ่มขยับเมื่อคลิก */
-        .follow-button:active {
-            transform: scale(0.95); /* ย่อขนาดปุ่ม */
-        }
-
-        /* ปุ่มขยับเมื่อโฮเวอร์ */
-        .follow-button:hover {
-            background-color: #F48FB1; /* สีชมพูพาสเทลเข้มขึ้นเมื่อโฮเวอร์ */
-            transform: translateY(-5px); /* ขยับขึ้นเล็กน้อย */
-        }
-
-
+   
+            
 
 h2 {
-            color: #5076e7; 
+            color: #FF3399; 
+            font-family: "Noto Sans Thai", sans-serif;
+            font-optical-sizing: auto;
+            font-weight: 600;
+            font-style: normal;
+            font-variation-settings:"wdth" 100;
         }
 
 
@@ -49,18 +25,28 @@ h2 {
 
 
 
-h6 {
-            color: #FF82AB; 
-        }
-
-
-
-
-
-
-p {
+p2 {
             color: #2161da; 
+            font-family: "Noto Sans Thai", sans-serif;
+            font-optical-sizing: auto;
+            font-weight: 500;
+            font-style: normal;
+            font-variation-settings:"wdth" 100;
         }
+
+
+
+
+
+
+p   {
+            color: #2161da; 
+            font-family: "Noto Sans Thai", sans-serif;
+            font-optical-sizing: auto;
+            font-weight: 500;
+            font-style: normal;
+            font-variation-settings:"wdth" 100;
+    }
 
 
 
@@ -70,7 +56,13 @@ p {
 
 h1 {
             color: #088d7b; 
-        }
+            font-family: "Noto Sans Thai", sans-serif;
+            font-optical-sizing: auto;
+            font-weight: 500;
+            font-style: normal;
+            font-variation-settings: "wdth" 100;
+    }
+        
 
 
 
@@ -79,7 +71,12 @@ h1 {
 
 p1 {
             color: #784fc5; 
-        }
+            font-family: "Noto Sans Thai", sans-serif;
+            font-optical-sizing: auto;
+            font-weight: 500;
+            font-style: normal;
+            font-variation-settings:"wdth" 100;
+     }
 
 
 
@@ -199,3 +196,12 @@ body {
             bottom: 0;
             width: 100%;
         }
+
+
+
+        .carousel-item img {
+            width: 100%;
+            height: auto;
+            object-fit: cover;
+        }
+        

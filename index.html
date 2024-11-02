@@ -15,51 +15,38 @@
             <div class="col-md-6">
             <img alt="" src="images/logo.png" width="200" height="200">
         </div>
-        
+
+        <!-- navbar -->
         <div class="col-md-6">
             <nav class="navbar navbar-expand-lg ">
-                            <div class="container-fluid">
-                            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                                <span class="navbar-toggler-icon"></span>
-                            </button>
-                            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                                <li class="nav-item">
-                                    <a class="nav-link active" aria-current="page" href="#home">Home</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="#favorite">favorite</a>
-                                </li>
-                                        <li class="nav-item">
-                                    <a class="nav-link" href="#review">review</a>
-                                </li>
+                <div class="container-fluid">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#home">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#favorite">favorite</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#review">review</a>
+                            </li>
                                         
-                                
                                 <form class="d-flex" role="search">
                                 <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
                                 <button class="btn btn-outline-success" type="submit">Search</button>
                                 </form>
-                            </div>
-                            </div>
-                        </nav>
-                            <button class="follow-button" onclick="toggleFollow(this)">follow</button>
+                        </ul>
+                    </div>
+                </div>
+            </nav>                                          
+        </div>
     
-                                <script>
-                                    function toggleFollow(button) {
-                                        if (button.innerHTML === "follow") {
-                                            button.innerHTML = "following";
-                                            button.classList.add("following");
-                                        } else {
-                                            button.innerHTML = "follow";
-                                            button.classList.remove("following");
-                                        }
-                                    }
-                                </script>
-                            </div>
-            </div>
-    
-    
-    
+        <!-- แนะนำ -->
         <div class="container-fluid" id="home">
             <div class="row">
                 <div class="col-md-12" id="favorite">
@@ -68,16 +55,17 @@
                     </h2></u>
                 </div>
             </div>
+        </div>
     
     
     
     
-    
-            <div class="row">
-                <div class="col-md-6 text-center">
-                        <br><div class="image-container-fluid">
-                            <div id="carouselExampleIndicators" class="carousel slide">
-                  <div class="carousel-indicators">
+        <!-- carousel -->
+        <div class="row">
+            <div class="col-md-6 text-center">
+                    <br><div class="image-container-fluid">
+                        <div id="carouselExampleIndicators" class="carousel slide">
+                    <div class="carousel-indicators">
                         <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
                         <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
                         <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
@@ -88,8 +76,8 @@
                         <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 2"></button>
                         <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 1"></button>
                         <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 0"></button>
-                  </div>
-                  <div class="carousel-inner">
+                    </div>
+                    <div class="carousel-inner">
                 <div class="carousel-item active">
                       <img src="images/ปก.jpeg" class="d-block w-100" alt="...">
                 </div>
@@ -121,7 +109,7 @@
                 </div>
             </div>
     
-    
+                    <!-- รายละเอียดหนังสือ -->
                     <div class="row">
                         <div class="col-md-12">
                         <p align="left"><br><strong>รายละเอียดหนังสือ</strong></p>
@@ -134,27 +122,29 @@
                         <p align="left">เดือนปีที่พิมพ์ : 7/2019</p>
                         </div>
                     </div>
-                        
+
+                <!-- เนื้อหา -->       
                 </div>
                 <div class="col-md-6">
                     <br><h1>
-                        ทำความรู้จักหนังสือ <br>ลา ฟลอร่า ลิตเติ้ลเลดี้ เล่ม 6 <br>ชนชั้นในยุควิกตอเรียกับตัวตนที่หายไป <br>ฉบับการ์ตูน
+                        ทำความรู้จักหนังสือ <br> "ลา ฟลอร่า ลิตเติ้ลเลดี้ เล่ม 6 <br>ชนชั้นในยุควิกตอเรียกับตัวตนที่หายไป" <br>ฉบับการ์ตูน
                     </h1>
                     <br><p1>
                         หนังสือ "ลา ฟลอร่า ลิตเติ้ลเลดี้ เล่ม 6 ชนชั้นในยุควิกตอเรียกับตัวตนที่หายไป ฉบับการ์ตูน" เปิดประตูสู่โลกที่หรูหราและซับซ้อนของยุควิกตอเรีย ขณะที่เรื่องราวนี้เชื่อมโยงความสนุกสนานของการ์ตูนเข้ากับการเล่าที่ละเอียดอ่อนและลึกซึ้ง ทำให้ผู้อ่านทุกเพศทุกวัยต้องตกหลุมรักไปพร้อมๆ กัน</p1><br>
-                    <br><p><strong>ผู้เขียน</strong></p>ภาสกร กฤษสมัย<br>
+                    <br><p><strong>ผู้เขียน</strong></p><p2>ภาสกร กฤษสมัย</p2><br>
                     
-                    <br><p>Tags</p> : หนังสือเด็กการ์ตูนความรู้ ลา ฟลอร่า การ์ตูนความรู้ชุด วัฒนธรรมรอบโลกการ์ตูนความรู้วัฒนธรรมนานาชาติ<br>
-                    <br><p>สั่งซื้อสินค้าได้ที่</p> : <a href="https://www.se-ed.com/product-search/%E0%B8%A5%E0%B8%B2-%E0%B8%9F%E0%B8%A5%E0%B8%AD%E0%B8%A3%E0%B9%88%E0%B8%B2.aspx?keyword=%e0%b8%a5%e0%b8%b2+%e0%b8%9f%e0%b8%a5%e0%b8%ad%e0%b8%a3%e0%b9%88%e0%b8%b2&search=default" target="_blank">SE-ED Book Center</a><br>
-                    
+                    <br><p><strong>Tag</strong></p> <p2>: หนังสือเด็กการ์ตูนความรู้ ลา ฟลอร่า การ์ตูนความรู้ชุด วัฒนธรรมรอบโลกการ์ตูนความรู้วัฒนธรรมนานาชาติ</p2><br>
+                    <br><p><strong>สั่งซื้อสินค้าได้ที่</strong></p> : <a href="https://www.se-ed.com/product-search/%E0%B8%A5%E0%B8%B2-%E0%B8%9F%E0%B8%A5%E0%B8%AD%E0%B8%A3%E0%B9%88%E0%B8%B2.aspx?keyword=%e0%b8%a5%e0%b8%b2+%e0%b8%9f%e0%b8%a5%e0%b8%ad%e0%b8%a3%e0%b9%88%e0%b8%b2&search=default" target="_blank">SE-ED Book Center</a><br> 
                 </div>
             </div>
         </div>
-        <div class="col-md-12">
-            <br><h2><u>
-               เรื่องที่คุณอาจสนใจ
-            </h2></u>
-        </div>
+            
+            <!-- เพิ่มเติม -->
+            <div class="col-md-12">
+                <br><h2><u>
+                    เรื่องที่คุณอาจสนใจ
+                </h2></u>
+            </div>
     
     
     
@@ -175,52 +165,57 @@
     
     
     
-    
-    <br><div class="row">
-                        <div class="accordion" id="accordionExample">
-      <div class="accordion-item">
-        <h2 class="accordion-header">
-          <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-            ลา ฟลอร่าพริ้นเซส ไอดอล โรงเรียนเจ้าหญิงแห่งเสียงเพลง เพลงที่ 3 : คอนเสิร์ตท้องทะเลกับบทเพลงครั้งสุดท้าย (ฉบับการ์ตูน)
-          </button>
-        </h2>
-        <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
-          <div class="accordion-body">
-            <strong>รายละเอียดสินค้า</strong>"ซอ" ได้รับโอกาสขึ้นแสดงคอนเสิร์ตของชมรมร้องเพลง แต่ทว่าได้ฟังคำพูดทำร้ายจิตใจของ "เรน" จึงทำให้ไม่สามารถร้องเพลงได้อีก ด้วยความเป็นห่วง "มินนา" จึงหาวิถีทางที่จะทำให้ซอกลับมาร้องเพลงได้อีกครั้ง ภารกิจครั้งนี้จะสำเร็จหรือไม่? แล้วซอล่ะ จะได้ขึ้นคอนเสิร์ตรึเปล่าหรือว่าต้องถอนตัว! ติดตามพร้อมกันได้แล้วในเล่ม!!
+        <!-- accordion -->
+        <br><div class="row">
+            <div class="accordion" id="accordionExample">
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                            ลา ฟลอร่าพริ้นเซส ไอดอล โรงเรียนเจ้าหญิงแห่งเสียงเพลง เพลงที่ 3 : คอนเสิร์ตท้องทะเลกับบทเพลงครั้งสุดท้าย (ฉบับการ์ตูน)
+                        </button>
+                    </h2>
+
+                    <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <strong>รายละเอียดสินค้า</strong> "ซอ" ได้รับโอกาสขึ้นแสดงคอนเสิร์ตของชมรมร้องเพลง แต่ทว่าได้ฟังคำพูดทำร้ายจิตใจของ "เรน" จึงทำให้ไม่สามารถร้องเพลงได้อีก ด้วยความเป็นห่วง "มินนา" จึงหาวิถีทางที่จะทำให้ซอกลับมาร้องเพลงได้อีกครั้ง ภารกิจครั้งนี้จะสำเร็จหรือไม่? แล้วซอล่ะ จะได้ขึ้นคอนเสิร์ตรึเปล่าหรือว่าต้องถอนตัว! ติดตามพร้อมกันได้แล้วในเล่ม!!
+                        </div>
+                    </div>
+
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                ลา ฟลอร่า ลิตเติ้ลเลดี้ เล่ม 10 วัฒนธรรมกระจกกับบทสรุปของคำสาป (ฉบับการ์ตูน)
+                            </button>
+                        </h2>
+
+                    <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <strong>รายละเอียดสินค้า</strong> "ทิวา" ติดอยู่ในโลกกระจกเพียงคนเดียว เพราะทางกลับถูกทำลายโดยวิญญาณกระจกที่คอยกลั่นแกล้งทิวา เพื่อน ๆ จงช่วยกันหาวิธีสร้างทางกลับขึ้นมาใหม่ ด้วยกการสร้างกระจกโบราณจากหลากหลายวัฒนธรรมทั่วโลก แต่จะได้ผลหรือไม่? ทิวาจะกลับมาได้หรือเปล่า? ภารกิจแก้คำสาปดำเนินมาถึงบทสุดท้ายแล้ว มาเอาใจช่วยพวกทิวาไปพร้อม ๆ กันเถอะ!
+                        </div>
+                </div>
+            </div>
+
+                <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                49 เรื่องเด็ด เกร็ดประวัติศาสตร์ญี่ปุ่น (ฉบับการ์ตูน)
+                            </button>
+                        </h2>
+
+                    <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <strong>รายละเอียดสินค้า</strong> ช่วงปิดเทอม ราตรี ได้ขอความช่วยเหลือจากก๊วนสาว "ลา ฟลอร่า" และ "หนุ่มโนอาห์" กับการประกวดละครสั้น "ทูตทางวัฒนธรรมและประวัติศาสตร์ ระดับเยาวชน" หัวข้อแรกเป็น "ประวัติศาสตร์ญี่ปุ่น" มีรางวัลใหญ่คือทัวร์สถานที่สำคัญทางประวัติศาสตร์ ทั้งเอเชียและยุโรป ฟรี ๆ แต่ทว่า "ทิวา" ไม่อยากทำซะนี่ แล้วทุกคนจะช่วยกันสานฝันของ "ราตรี" เพื่อคว้ารางวัลที่ 1 ได้หรือไม่นะ!?           
+                        </div>
+                    </div>
+                </div>
         </div>
-      </div>
-      <div class="accordion-item">
-        <h2 class="accordion-header">
-          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-            ลา ฟลอร่า ลิตเติ้ลเลดี้ เล่ม 10 วัฒนธรรมกระจกกับบทสรุปของคำสาป (ฉบับการ์ตูน)
-          </button>
-        </h2>
-        <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-          <div class="accordion-body">
-            <strong>รายละเอียดสินค้า</strong>"ทิวา" ติดอยู่ในโลกกระจกเพียงคนเดียว เพราะทางกลับถูกทำลายโดยวิญญาณกระจกที่คอยกลั่นแกล้งทิวา เพื่อน ๆ จงช่วยกันหาวิธีสร้างทางกลับขึ้นมาใหม่ ด้วยกการสร้างกระจกโบราณจากหลากหลายวัฒนธรรมทั่วโลก แต่จะได้ผลหรือไม่? ทิวาจะกลับมาได้หรือเปล่า? ภารกิจแก้คำสาปดำเนินมาถึงบทสุดท้ายแล้ว มาเอาใจช่วยพวกทิวาไปพร้อม ๆ กันเถอะ!
-        </div>
-        </div>
-      </div>
-      <div class="accordion-item">
-        <h2 class="accordion-header">
-          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-            49 เรื่องเด็ด เกร็ดประวัติศาสตร์ญี่ปุ่น (ฉบับการ์ตูน)
-          </button>
-        </h2>
-        <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-          <div class="accordion-body">
-            <strong>รายละเอียดสินค้า</strong>ช่วงปิดเทอม ราตรี ได้ขอความช่วยเหลือจากก๊วนสาว "ลา ฟลอร่า" และ "หนุ่มโนอาห์" กับการประกวดละครสั้น "ทูตทางวัฒนธรรมและประวัติศาสตร์ ระดับเยาวชน" หัวข้อแรกเป็น "ประวัติศาสตร์ญี่ปุ่น" มีรางวัลใหญ่คือทัวร์สถานที่สำคัญทางประวัติศาสตร์ ทั้งเอเชียและยุโรป ฟรี ๆ แต่ทว่า "ทิวา" ไม่อยากทำซะนี่ แล้วทุกคนจะช่วยกันสานฝันของ "ราตรี" เพื่อคว้ารางวัลที่ 1 ได้หรือไม่นะ!?           
-        </div>
-        </div>
-      </div>
-    </div>
                 
     
     
     
     
     
-    
+            <!-- รีวิว -->
             <br><div class="row">
             <br><div class="review-container" id="review">
                 <a class="nav-link" id="review" href="#review"></a>
@@ -285,42 +280,27 @@
     
                         
                     
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-    
-    
-    
-    
-    
+                <!-- ผู้จัดทำ -->
                 <div class="row">
-                <div class="col-md-6 image-container">
+                    <div class="col-md-6 image-container">
                         <img src="images/pro.jpeg" width="200" height="200">
                     </div>
                     <p><br>ถ้าชอบไม่ชอบยังไงก็สามารถติชมกันได้นะคะ :) แต่อย่าไม่ชอบเลย ชอบบ้างอะไรบ้างก็ดี อะล้อเล่น~</p><br>
-                    
                 </div>
     
     
     
     
-        <div class="container">
-            <div class="row">
-                <footer>
-                    <p>เว็บไซต์นี้เป็นส่วนหนึ่งของวิชา 436301 เทคโนโลยีเว็บเพื่อการนำเสนอสารสนเทศ (Web Technology for Information Presentation)</p>
-                    <p>created by Yeoreum</p>
-                </footer>
+            <div class="container">
+                <div class="row">
+                    <footer>
+                        <p>เว็บไซต์นี้เป็นส่วนหนึ่งของวิชา 436301 เทคโนโลยีเว็บเพื่อการนำเสนอสารสนเทศ (Web Technology for Information Presentation)</p>
+                        <p>created by Yeoreum</p>
+                    </footer>
+                </div>
             </div>
-        </div>
     </div>
-    
+
 
 
 

@@ -76,7 +76,9 @@ p1 {
             font-weight: 500;
             font-style: normal;
             font-variation-settings:"wdth" 100;
+        
      }
+
 
 
 
@@ -188,7 +190,7 @@ body {
 
 
         footer {
-            background-color: #fff8ce; /* สีชมพูพาสเทล */
+            background-color: #fff8ce; 
             color: #333; /* สีข้อความ */
             text-align: center;
             padding: 20px 0;
@@ -201,7 +203,7 @@ body {
 
         .carousel-item  {
             width: 100%;
-            height: 100%; /* ตั้งค่าความสูงตามที่ต้องการ */
+            height: 100%; 
             overflow: hidden;
             
         }

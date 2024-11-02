@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Thai:wght@100..900&display=swap');
 body{
     background-color: rgb(113, 163, 255);
 }
@@ -7,41 +8,16 @@ body{
     background-color: rgb(255, 255, 255);
 
 }
-
-
-.follow-button {
-            background-color: #F8BBD0; /* สีชมพูพาสเทล */
-            color: white;
-            padding: 10px 20px;
-            border: none;
-            border-radius: 5px;
-            cursor: pointer;
-            font-size: 16px;
-            position: absolute;
-            top: 170px;
-            right: 450px;
-            transition: transform 0.3s ease, background-color 0.3s ease;
-        }
-
-        .follow-button.following {
-            background-color: #D3D3D3; /* สีเทาเมื่อกดติดตาม */
-        }
-
-        /* ปุ่มขยับเมื่อคลิก */
-        .follow-button:active {
-            transform: scale(0.95); /* ย่อขนาดปุ่ม */
-        }
-
-        /* ปุ่มขยับเมื่อโฮเวอร์ */
-        .follow-button:hover {
-            background-color: #F48FB1; /* สีชมพูพาสเทลเข้มขึ้นเมื่อโฮเวอร์ */
-            transform: translateY(-5px); /* ขยับขึ้นเล็กน้อย */
-        }
-
-
+   
+            
 
 h2 {
-            color: #20B2AA; /* สีน้ำเงินพาสเทล */
+            color: #FF3399; 
+            font-family: "Noto Sans Thai", sans-serif;
+            font-optical-sizing: auto;
+            font-weight: 600;
+            font-style: normal;
+            font-variation-settings:"wdth" 100;
         }
 
 
@@ -49,8 +25,13 @@ h2 {
 
 
 
-h6 {
-            color: #FF82AB; /* สีน้ำเงินพาสเทล */
+p2 {
+            color: #2161da; 
+            font-family: "Noto Sans Thai", sans-serif;
+            font-optical-sizing: auto;
+            font-weight: 500;
+            font-style: normal;
+            font-variation-settings:"wdth" 100;
         }
 
 
@@ -58,9 +39,14 @@ h6 {
 
 
 
-p {
-            color: #019cdf; /* สีน้ำเงินพาสเทล */
-        }
+p   {
+            color: #2161da; 
+            font-family: "Noto Sans Thai", sans-serif;
+            font-optical-sizing: auto;
+            font-weight: 500;
+            font-style: normal;
+            font-variation-settings:"wdth" 100;
+    }
 
 
 
@@ -68,9 +54,15 @@ p {
 
 
 
-h3 {
-            color: #C980DB; /* สีน้ำเงินพาสเทล */
-        }
+h1 {
+            color: #088d7b; 
+            font-family: "Noto Sans Thai", sans-serif;
+            font-optical-sizing: auto;
+            font-weight: 500;
+            font-style: normal;
+            font-variation-settings: "wdth" 100;
+    }
+        
 
 
 
@@ -78,8 +70,13 @@ h3 {
 
 
 p1 {
-            color: #7F83ED; /* สีน้ำเงินพาสเทล */
-        }
+            color: #784fc5; 
+            font-family: "Noto Sans Thai", sans-serif;
+            font-optical-sizing: auto;
+            font-weight: 500;
+            font-style: normal;
+            font-variation-settings:"wdth" 100;
+     }
 
 
 
@@ -177,7 +174,7 @@ body {
 
         .image {
             width: 300px; /* กำหนดขนาดภาพ */
-            height: auto;
+            height: 450px;
             transition: transform 0.3s ease, opacity 0.3s ease;
             opacity: 0.8; /* ให้มีความโปร่งแสงเล็กน้อย */
         }
@@ -186,3 +183,33 @@ body {
             transform: scale(1.1); /* ขยายภาพเมื่อชี้เมาส์ */
             opacity: 1; /* ทำให้ทึบเมื่อชี้เมาส์ */
         }
+
+
+
+
+        footer {
+            background-color: #fff8ce; /* สีชมพูพาสเทล */
+            color: #333; /* สีข้อความ */
+            text-align: center;
+            padding: 20px 0;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+
+
+
+        .carousel-item  {
+            width: 100%;
+            height: 100%; /* ตั้งค่าความสูงตามที่ต้องการ */
+            overflow: hidden;
+            
+        }
+        
+        .carousel-item img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            
+        }
+        

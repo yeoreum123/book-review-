@@ -166,7 +166,7 @@ body {
 
 
 
-	.image-container {
+	image-container {
             position: relative;
             display: inline-block;
             cursor: pointer;
@@ -212,4 +212,47 @@ body {
             object-fit: cover;
             
         }
+
+        .carousel-item img {
+            
+            padding: 20px; /* เว้นระยะจากขอบทุกด้านเข้าไปข้างใน 20px */
+            margin: auto; /* จัดให้อยู่ตรงกลางหน้าจอ */
+			}
+
+            
+        p1 {
+            
+            padding: 10px; /* เว้นระยะจากขอบทุกด้านเข้าไปข้างใน 10px */
+            margin: auto; /* จัดให้อยู่ตรงกลางหน้าจอ */
+
+        }
+
+        p2 {
+            
+            padding: 10px; /* เว้นระยะจากขอบทุกด้านเข้าไปข้างใน 10px */
+            margin: auto; /* จัดให้อยู่ตรงกลางหน้าจอ */
+                
+            } 
+
+        h2 {
+            
+            padding: 10px; /* เว้นระยะจากขอบทุกด้านเข้าไปข้างใน 10px */
+            margin: auto; /* จัดให้อยู่ตรงกลางหน้าจอ */
+            }
+
+        p {
+            
+            padding: 10px; /* เว้นระยะจากขอบทุกด้านเข้าไปข้างใน 10px */
+            margin: auto; /* จัดให้อยู่ตรงกลางหน้าจอ */
+            }
+
         
+        .circle-image {
+            width: 200px; /* กำหนดความกว้างของภาพ */
+            height: 200px; /* กำหนดความสูงของภาพ */
+            border-radius: 50%; /* ทำให้ภาพเป็นวงกลม */
+            object-fit: cover; /* ครอบภาพให้พอดีกับกรอบวงกลม */
+            
+            
+            
+        }

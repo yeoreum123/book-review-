@@ -199,24 +199,11 @@ body {
 
 
 
-        .carousel-item  {
-            width: 100%;
-            height: 100%; /* ตั้งค่าความสูงตามที่ต้องการ */
-            overflow: hidden;
-            
-        }
-        
-        .carousel-item img {
-            width: 100%;
-            height: 100%;
-            object-fit: cover;
-            
-        }
+
 
         .carousel-item img {
             
-            padding: 20px; /* เว้นระยะจากขอบทุกด้านเข้าไปข้างใน 20px */
-            margin: auto; /* จัดให้อยู่ตรงกลางหน้าจอ */
+            padding: 1px; 
 			}
 
             
